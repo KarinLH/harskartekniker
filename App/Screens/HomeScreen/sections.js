@@ -10,7 +10,7 @@ const ICON_SIZE = 25;
 export const sections = [
   {
     id: 1,
-    icon: "hand-left",
+    icon: "hand-front-left",
     title: "victimTitle",
     path: "Victim",
   },

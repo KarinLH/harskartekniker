@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import BottomNavigator from "./Navigators/bottomNavigator";
+import BottomNavigator from "./App/Navigators/bottomNavigator";
 import * as Localization from "expo-localization";
 import i18n from "i18n-js";
 
@@ -11,7 +11,7 @@ const getLocale = () => {
   return appLocale;
 };
 
-export default function App() {
+export default App = () => {
   i18n.locale = getLocale();
   i18n.fallbacks = true;
 
@@ -20,4 +20,4 @@ export default function App() {
       <BottomNavigator />
     </NavigationContainer>
   );
-}
+};

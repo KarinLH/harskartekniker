@@ -37,7 +37,7 @@ export const techniqueColors = {
 
 export const icons = {
   attackerIcon: "bell",
-  victimIcon: "hand-left",
+  victimIcon: "hand-front-left",
   homeIcon: "home",
   observerIcon: "eye",
   techniquesIcon: "information-variant",
