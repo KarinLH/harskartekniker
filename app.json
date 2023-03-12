@@ -13,12 +13,18 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.karinlh.harskartekniker"
     },
     "web": {
       "favicon": "./App/assets/favicon.png"
+    },
+    "android": {
+      "package": "com.karinlh.harskartekniker"
     }
   }
 }
