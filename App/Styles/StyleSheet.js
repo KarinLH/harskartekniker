@@ -102,11 +102,13 @@ export const textStyles = StyleSheet.create({
 
 export const cardStyles = StyleSheet.create({
   header: {
+    height: 110,
     width: "100%",
-    justifyContent: "center",
+    justifyContent: "flex-end",
     alignItems: "center",
     marginLeft: "auto",
     marginRight: "auto",
+    marginTop: 0,
     backgroundColor: "#efefef",
   },
   cardsContainer: {

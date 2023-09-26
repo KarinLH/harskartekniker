@@ -25,6 +25,11 @@
     },
     "android": {
       "package": "com.karinlh.harskartekniker"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e0a01c2-1aba-450b-bccb-b4b4cf2f089d"
+      }
     }
   }
 }
