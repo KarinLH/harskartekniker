@@ -20,7 +20,7 @@ To run the project locally, follow these steps:
 ## Usage
 Start the app using the following command:
 
-`expo start`
+`npx expo start`
 
 This will start the Expo development server and give you a range of choices of how to run it in a browser or in an emulator. .
 

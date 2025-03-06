@@ -20,7 +20,7 @@ function HomeScreen({ navigation }) {
       <ScrollView style={background}>
         <View style={screenContainer}>
           <View style={sectionStyles.textContainer}>
-            <Text style={h1}>Power App</Text>
+            <Text style={h1}>Power Up!</Text>
             <Text style={p}>{translations.t("h_text")}</Text>
           </View>
           <View style={cardStyles.cardsContainer}>

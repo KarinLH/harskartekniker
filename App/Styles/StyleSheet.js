@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet } from "react-native";
+import { Platform } from "react-native";
 
 const cardShadow = {
   shadowColor: "#000",
@@ -37,7 +38,7 @@ export const techniqueColors = {
 
 export const icons = {
   attackerIcon: "bell",
-  victimIcon: "hand-front-left",
+  victimIcon: "hand-back-left",
   homeIcon: "home",
   observerIcon: "eye",
   techniquesIcon: "information-variant",
@@ -102,13 +103,11 @@ export const textStyles = StyleSheet.create({
 
 export const cardStyles = StyleSheet.create({
   header: {
-    height: 110,
     width: "100%",
-    justifyContent: "flex-end",
+    justifyContent: "center",
     alignItems: "center",
     marginLeft: "auto",
     marginRight: "auto",
-    marginTop: 0,
     backgroundColor: "#efefef",
   },
   cardsContainer: {

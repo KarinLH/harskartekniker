@@ -84,13 +84,13 @@ export default function BottomNavigator() {
             component={tab.component}
             options={{
               tabBarVisible: tab.name === "Home" ? false : true,
-              tabBarLabel: ({ focused }) =>
+              tabBarLabel: ({ focused = false }) =>
                 focused ? (
                   <Text style={{ ...LABEL_STYLE }}>
                     {translations.t(tab.label)}
                   </Text>
                 ) : null,
-              tabBarIcon: ({ focused }) => (
+              tabBarIcon: ({ focused = false }) => (
                 <MaterialCommunityIcons
                   name={tab.icon}
                   color={focused ? ACTIVE_COLOR : ICON_COLOR}

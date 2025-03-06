@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Power Up",
-    "slug": "powerUp",
+    "name": "harskartekniker",
+    "slug": "harskartekniker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./App/assets/icon.png",
@@ -18,18 +18,20 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "se.lisasallvin.Power-Up"
+      "bundleIdentifier": "se.lisasallvin.Power-Up",
+      "deploymentTarget": "12.0",
+      "usesNonExemptEncryption": false
     },
     "web": {
       "favicon": "./App/assets/favicon.png"
     },
-    "android": {
-      "package": "se.lisasallvin.Power_Up"
-    },
     "extra": {
       "eas": {
-        "projectId": "32d5e766-d0cb-4521-bee9-3fe0155b47e8"
+        "projectId": "fb38cc2e-468f-4b1d-9c8c-09384712b575"
       }
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }

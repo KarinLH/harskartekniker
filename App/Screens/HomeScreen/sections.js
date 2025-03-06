@@ -4,13 +4,13 @@ import { Text, TouchableOpacity } from "react-native";
 import { Card } from "react-native-elements";
 import { cardStyles } from "../../Styles/StyleSheet";
 
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 const ICON_SIZE = 25;
 
 export const sections = [
   {
     id: 1,
-    icon: "hand-front-left",
+    icon: "hand-back-left",
     title: "victimTitle",
     path: "Victim",
   },
